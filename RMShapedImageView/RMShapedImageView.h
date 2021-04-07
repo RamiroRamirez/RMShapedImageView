@@ -42,6 +42,6 @@
 @property (nonatomic, readonly) BOOL shapedSupported;
 
 - (CGPoint)imagePointFromViewPoint:(CGPoint)viewPoint;
-- (BOOL)isAlphaVisibleAtImagePoint:(CGPoint)point
+- (BOOL)isAlphaVisibleAtImagePoint:(CGPoint)point;
 
 @end
